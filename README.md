@@ -11,3 +11,5 @@ Future plans:
 - Animation on collusions 
 - Sound effects. Background music, sound on collusion, sounds when player wins/loses. 
 - Add difficulty levels 
+
+Eskender Memetov, 300805013, Centennial College
