@@ -18,15 +18,18 @@ public class Score : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+       
         if (ballObj.transform.position.x >= 10f)
         {
             playerScore++;
-
+                
         }
         if (ballObj.transform.position.x <= -10f)
         {
             enemyScore++;
-        }
+                
+            }
+        
         Scoreboard.text = playerScore.ToString() + " - " + enemyScore.ToString();
         if (playerScore >= 7)
         {
@@ -36,5 +39,6 @@ public class Score : MonoBehaviour {
         {
             SceneManager.LoadScene(3);
         }
+        
 	}
 }

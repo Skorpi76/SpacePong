@@ -12,8 +12,20 @@ public class MenuController : MonoBehaviour {
     {
         SceneManager.LoadScene(1);
     }
+    public void Play_Again_Multiplayer()
+    {
+        SceneManager.LoadScene(4);
+    }
     public void Quit_game()
     {
         Application.Quit();
+    }
+    public void Play_Multiplayer()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void Back_To_Menu()
+    {
+        SceneManager.LoadScene(0);
     }
 }

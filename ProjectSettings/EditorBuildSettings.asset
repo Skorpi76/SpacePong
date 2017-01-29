@@ -13,3 +13,9 @@ EditorBuildSettings:
     path: Assets/Scenes/PlayerOneWins.unity
   - enabled: 1
     path: Assets/Scenes/PlayerTwoWins.unity
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/MultiplayerScene.unity
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/WinPlayer1.unity
+  - enabled: 1
+    path: Assets/Scenes/Multiplayer/WinPlayer2.unity

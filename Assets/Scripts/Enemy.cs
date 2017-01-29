@@ -7,15 +7,16 @@ public class Enemy : MonoBehaviour
     public float speed = 7;
     Vector2 targetPos;
     GameObject ballObj;
-    // Use this for initialization
+    
     void Start()
     {
-
+        // Создать ещё одну сцену, скопировать всё, удалить скрипты, и назначить новые, установить в меню новый второй 
+       // мод игры плеер против плеера 
 
         ballObj = GameObject.FindGameObjectWithTag("Ball");
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         targetPos = Vector2.Lerp(gameObject.transform.position, ballObj.transform.position, Time.deltaTime * speed);
