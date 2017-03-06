@@ -1,7 +1,6 @@
 # SpacePong
 Space Pong is a typical pong game made using Unity3D and C# for study purpose 
-<<<<<<< HEAD
-=======
+
 
 
 I’m glad to introduce you my first game made with Unity3D engine, so far it just the basic pong game, with very primitive AI, score system, main menu and 7 rounds gameplay after which will popup a windows that says which player won. All the sprites and background images are not mine, you are able to find links to originals in the References.txt file. Feel free to leave you feedback, suggestions, make changes or use my code in your projects.
@@ -15,4 +14,4 @@ Future plans:
 - Add difficulty levels 
 
 Eskender Memetov, 300805013, Centennial College
->>>>>>> origin/master
+
