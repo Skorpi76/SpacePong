@@ -9,6 +9,7 @@ public class Ball : MonoBehaviour {
     public GameObject Player;
     public GameObject Enemy;
 
+
 	// Use this for initialization
 	void Start () {
         rb = GetComponent<Rigidbody2D>();
@@ -18,8 +19,9 @@ public class Ball : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-       
-        if (Input.GetKey(KeyCode.Q) && isPlay == false)
+        
+
+        if (Input.GetKey(KeyCode.Space) && isPlay == false)
         {
             int directionX = Random.Range(-1, 2);
             int directionY = Random.Range(-1, 2);
